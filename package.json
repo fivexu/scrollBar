@@ -1,0 +1,19 @@
+{
+  "name": "scroll-bar-vue",
+  "version": "1.1.1",
+  "description": "scroll-bar-vue in vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fivexu/scrollBar.git"
+  },
+  "author": "fivexu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fivexu/scrollBar/issues"
+  },
+  "homepage": "https://github.com/fivexu/scrollBar#readme"
+}
