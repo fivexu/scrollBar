@@ -201,7 +201,7 @@
   }
 </script>
 
-<style lang="less" rel="stylesheet/less">
+<style>
   @keyframes show {
     0% {
       transform: translate3d(100%, 0, 0);
@@ -212,22 +212,20 @@
       opacity: 1;
     }
   }
-
   #scroll-bar {
     user-select: none;
     width: 100%;
     height: 100%;
     position: relative;
     overflow: hidden;
-    .content {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
   }
-
+  #scroll-bar .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
   .bar {
     cursor: default;
     position: absolute;
@@ -238,12 +236,12 @@
     height: 10px;
     border-radius: 2.5px;
     background-color: rgba(0, 0, 0, 0.3);
-    &.ac {
-      animation: show 0.3s;
-      animation-fill-mode: forwards;
-    }
-    &.hide {
-      display: none;
-    }
+  }
+  .bar.ac {
+    animation: show 0.3s;
+    animation-fill-mode: forwards;
+  }
+  .bar.hide {
+    display: none;
   }
 </style>
